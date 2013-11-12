@@ -74,7 +74,6 @@
 
 - (void)pushExample
 {
-    NSLog(@"winfinwef");
 	UIViewController *stubController = [[UIViewController alloc] init];
 	stubController.view.backgroundColor = [UIColor whiteColor];
 	[self.navigationController pushViewController:stubController animated:YES];
